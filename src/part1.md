@@ -1,0 +1,1 @@
+<img src="/src/images/signup.JPG" width="800px" alt="sign-up">

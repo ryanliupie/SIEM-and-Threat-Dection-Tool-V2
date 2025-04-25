@@ -38,7 +38,9 @@ Some best practices to secure SSH include:
 
 <img src="/src/images/ec24.JPG" width="800px" alt="ssh-allow-anywhere">
 
-Click on `Launch instance` after everything is set and ready to go.
+After everything is set and ready to go, click on `Launch instance`. 
+
+
 
 
 

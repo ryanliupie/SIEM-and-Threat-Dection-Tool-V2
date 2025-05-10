@@ -1,6 +1,8 @@
-    Purpose? 
+## Purpose 🤔❔ 
 
-    To catch those attacks, we can install a CloudWatch Agent on the EC2, like a spy on the system. When it sees anything suspicious like someone trying and failing to log in, it will send it to a centralized storage area (CloudWatch Logs). We can review this and analyze it later like a spy gathering clues for a future investigation. 
+To catch those attacks, we can install a CloudWatch Agent on the EC2, like a spy on the system. When it sees anything suspicious like someone trying and failing to log in, it will send it to a centralized storage area (CloudWatch Logs). We can review this and analyze it later like a spy gathering clues for a future investigation.
+
+<hr>
 
 <img src="/src/images/ec26.JPG" width="800px" alt="ec2-cloudwatch">
 

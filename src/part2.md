@@ -1,6 +1,8 @@
-    Purpose? 
+## Purpose 🤔❔ 
 
-    This Detection EC2 will act like a regular computer. Imagine you're using it at home for browsing, homework, movies or gaming. However, it has a secret skill where it can detect when someone tries to attack it. 
+This Detection EC2 will act like a regular computer. Imagine you're using it at home for browsing, homework, movies or gaming. However, it has a secret skill where it can detect when someone tries to attack it. 
+
+<hr>
 
 <img src="/src/images/ec21.jpg" width="800px" alt="ec2-name">
 

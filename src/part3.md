@@ -1,3 +1,7 @@
+    Purpose? 
+
+    To catch those attacks, we can install a CloudWatch Agent on the EC2, like a spy on the system. When it sees anything suspicious like someone trying and failing to log in, it will send it to a centralized storage area (CloudWatch Logs). We can review this and analyze it later like a spy gathering clues for a future investigation. 
+
 <img src="/src/images/ec26.JPG" width="800px" alt="ec2-cloudwatch">
 
 Once the EC2 is running and is initialized, click on the empty box right next to the name of the EC2, then click on `Connect`. 
@@ -92,5 +96,3 @@ Above when connected to the instance, it says `Amazon Linux 2023`. Remember in s
 - If using the Amazon Linux 2023 AMI use → `"file_path": "/var/log/messages"` 
 
 - If using the Amazon Linux 2 AMI use → `"file_path": "/var/log/secure"` (preferrably use this one ✔)
-
-    - Above I used the 2023 AMI with "secure" which does not exist on it, so I just made another EC2 and repeated all the steps. However, if you did initially choose the Linux 2 AMI, everything should work 😎. 

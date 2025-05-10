@@ -1,3 +1,7 @@
+    Purpose? 
+
+    This Detection EC2 will act like a regular computer. Imagine you're using it at home for browsing, homework, movies or gaming. However, it has a secret skill where it can detect when someone tries to attack it. 
+
 <img src="/src/images/ec21.jpg" width="800px" alt="ec2-name">
 
 On the search bar, search up `EC2`. Name the EC2 `Detection` as this EC2 will feed the SSH login attempts to other AWS services, then choose the `Amazon Linux 2` AMI. This is very important, do not choose the 2023 AMI. 

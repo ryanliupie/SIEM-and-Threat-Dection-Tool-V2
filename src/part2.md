@@ -1,6 +1,6 @@
 <img src="/src/images/ec21.jpg" width="800px" alt="ec2-name">
 
-On the search bar, search up `EC2`. Name the EC2 `Detection` as this EC2 will feed the SSH login attempts to other AWS services, then choose the `Amazon Linux` AMI. 
+On the search bar, search up `EC2`. Name the EC2 `Detection` as this EC2 will feed the SSH login attempts to other AWS services, then choose the `Amazon Linux 2` AMI. This is very important, do not choose the 2023 AMI. 
 
 <img src="/src/images/ec22.JPG" width="800px" alt="ec2-instance-type">
 

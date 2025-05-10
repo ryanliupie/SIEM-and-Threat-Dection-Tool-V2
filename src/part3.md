@@ -73,3 +73,22 @@ Go back to the EC2. Click on `Actions` → `Security` → `Modify IAM role`.
 <img src="/src/images/ec39.JPG" width="800px" alt="ec2-cloudwatch">
 
 Choose the IAM role for the Agent we just created, then click on `Update IAM role`. 
+
+<img src="/src/images/ec40.JPG" width="800px" alt="ec2-cloudwatch">
+
+After updating the IAM Role, restart the CloudWatch Agent by connecting to the EC2 instance to make sure everything updates and is in working order. 
+
+<img src="/src/images/ec41.JPG" width="800px" alt="ec2-cloudwatch">
+
+Let's check if the `SSHLogGroup` was automatically created, so in the search bar, type in `CloudWatch` → `Logs` → `Log groups`. This Log group will specifically capture SSH-related events based on the `"file_path": "/var/log/secure"` we discussed earlier. 
+
+
+<hr>
+
+# ⚠️
+
+- If using the Amazon Linux 2023 AMI use → `"file_path": "/var/log/messages"` 
+
+- If using the Amazon Linux 2 AMI use → `"file_path": "/var/log/secure"` (preferrably use this one ✔)
+
+    - Below, there is a slight misconfiguration, as I used the 2023 AMI with "secure". When we begin launching an EC2, pick the `Amazon Linux 2 AMI`. 

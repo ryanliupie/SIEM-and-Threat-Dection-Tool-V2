@@ -87,8 +87,10 @@ Let's check if the `SSHLogGroup` was automatically created, so in the search bar
 
 # ⚠️
 
+Above when connected to the instance, it says `Amazon Linux 2023`. Remember in step 2, make sure you choose `Amazon Linux 2 AMI`. However, if you chose the 2023 AMI, here is what to look out for when configuring the JSON file: 
+
 - If using the Amazon Linux 2023 AMI use → `"file_path": "/var/log/messages"` 
 
 - If using the Amazon Linux 2 AMI use → `"file_path": "/var/log/secure"` (preferrably use this one ✔)
 
-    - Below, there is a slight misconfiguration, as I used the 2023 AMI with "secure". When we begin launching an EC2, pick the `Amazon Linux 2 AMI`. 
+    - Above I used the 2023 AMI with "secure" which does not exist on it, so I just made another EC2 and repeated all the steps. However, if you did initially choose the Linux 2 AMI, everything should work 😎. 

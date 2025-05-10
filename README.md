@@ -7,3 +7,4 @@ In this project, I will demonstrate how to make a SIEM & Threat Detection Tool o
 
 - <h3><a href="src/part1.md">AWS Sign Up</a><h3>
 - <h3><a href="src/part2.md">Launch Detection EC2 Instance</a><h3>
+- <h3><a href="src/part3.md">Configure CloudWatch Agent on EC2</a><h3>
